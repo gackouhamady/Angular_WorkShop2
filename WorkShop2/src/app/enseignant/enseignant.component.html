@@ -1,0 +1,9 @@
+<div>
+    <h1>Question que j'ai pose a mon etudiant :{{question}} </h1>
+
+</div>
+<app-etudiant [questionEnseignant]="question" (reponsefinale)="Correction($event)"></app-etudiant>
+
+<h2>
+    Retour Enseignant : {{message}}
+</h2>
